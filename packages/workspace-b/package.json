@@ -1,5 +1,7 @@
 {
   "name": "workspace-b",
+  "main": "src/index.ts",
+  "source": true,
   "devDependencies": {
     "@testing-library/react": "11.2.3",
     "@types/react": "17.0.0",

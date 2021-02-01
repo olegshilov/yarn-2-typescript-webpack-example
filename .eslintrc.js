@@ -19,6 +19,8 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 0,
   },
   settings: {
-    react: { version: 'detect' },
+    react: {
+      version: '16.14.0',
+    },
   },
 };

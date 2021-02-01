@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "module": "esnext",
-    "target": "es5",
+    "target": "esnext",
     "strict": true,
     "sourceMap": true,
     "jsx": "react",
@@ -12,8 +12,6 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "removeComments": true,
-    "lib": ["dom"],
-    "declaration": true,
     "moduleResolution": "node"
   }
 }

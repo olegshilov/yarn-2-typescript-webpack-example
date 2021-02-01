@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { ExampleComponent } from 'workspace-b';
 
 export function Root(): ReactElement {
