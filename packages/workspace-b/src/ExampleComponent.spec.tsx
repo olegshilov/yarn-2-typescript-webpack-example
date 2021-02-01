@@ -4,7 +4,9 @@ import { ExampleComponent } from './ExampleComponent';
 
 describe('<ExampleComponent />', () => {
   it('should render correctly', () => {
-    const { getByText } = render(<ExampleComponent />);
+    const { getByText } = render(
+      <ExampleComponent isBold>ExampleComponent</ExampleComponent>,
+    );
 
     expect(getByText('ExampleComponent')).toBeTruthy();
   });

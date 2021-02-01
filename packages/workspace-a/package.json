@@ -1,16 +1,17 @@
 {
   "name": "workspace-a",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "yarn webpack serve",
+    "build": "yarn webpack"
   },
   "dependencies": {
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "workspace-b": "workspace:*"
   },
   "devDependencies": {
     "@testing-library/react": "11.2.3",
+    "@types/jest": "26.0.20",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "html-webpack-plugin": "4.5.1",

@@ -11,6 +11,7 @@ describe('<Root />', () => {
     const { container, getByText } = render(<Root />);
 
     expect(container.hasChildNodes()).toBeTruthy();
+    expect(getByText('Root')).toBeTruthy();
     expect(getByText('ExampleComponent')).toBeTruthy();
   });
 });

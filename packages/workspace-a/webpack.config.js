@@ -3,6 +3,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
 module.exports = {
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   devtool: 'source-map',
   cache: true,
   entry: './src',
@@ -10,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.jsx', '.js'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx'],
     plugins: [PnpWebpackPlugin],
   },
   resolveLoader: {
@@ -20,13 +21,14 @@ module.exports = {
     rules: [
       {
         test: /\.ts(x?)$/,
-        loader: require.resolve('ts-loader'),
+        use: require.resolve('ts-loader'),
       },
     ],
   },
   plugins: [
     new HtmlPlugin({
       title: 'workspace-a app',
+      template: path.resolve(__dirname, 'src/index.html'),
     }),
   ],
 };

@@ -1,9 +1,15 @@
 import React, { ReactElement } from 'react';
 
-export function ExampleComponent(): ReactElement {
-  return (
-    <div>
-      <h1>ExampleComponent</h1>
-    </div>
-  );
+export function ExampleComponent({
+  isBold,
+  children,
+}: {
+  isBold?: boolean;
+  children: string;
+}): ReactElement {
+  if (isBold) {
+    return <div style={{ fontWeight: 'bold' }}>{children}</div>;
+  }
+
+  return <div>{children}</div>;
 }
