@@ -1,0 +1,24 @@
+{
+  "name": "workspace-a",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "workspace-b": "workspace:*"
+  },
+  "devDependencies": {
+    "@testing-library/react": "11.2.3",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "html-webpack-plugin": "4.5.1",
+    "pnp-webpack-plugin": "1.6.4",
+    "ts-loader": "8.0.14",
+    "typescript": "3.9.7",
+    "webpack": "4.46.0",
+    "webpack-cli": "4.4.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "strict": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "removeComments": true,
+    "lib": ["dom"],
+    "declaration": true,
+    "moduleResolution": "node"
+  }
+}
