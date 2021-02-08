@@ -1,21 +1,17 @@
 const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
-const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   devtool: 'source-map',
   cache: true,
-  entry: './src',
+  entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
-    plugins: [PnpWebpackPlugin],
-  },
-  resolveLoader: {
-    plugins: [PnpWebpackPlugin.moduleLoader(module)],
   },
   module: {
     rules: [
@@ -23,12 +19,71 @@ module.exports = {
         test: /\.ts(x?)$/,
         use: require.resolve('ts-loader'),
       },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: require.resolve('style-loader'),
+          },
+          {
+            loader: require.resolve('css-loader'),
+            options: {
+              modules: true,
+              importLoaders: 1,
+            },
+          },
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              postcssOptions: {
+                config: path.resolve(__dirname, 'postcss.config.js'),
+              },
+            },
+          },
+        ],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: require.resolve('style-loader'),
+          },
+          {
+            loader: require.resolve('css-loader'),
+            options: {
+              importLoaders: 1,
+            },
+          },
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              postcssOptions: {
+                config: path.resolve(__dirname, 'postcss.config.js'),
+              },
+            },
+          },
+        ],
+        include: [
+          /normalize\.css\/normalize\.css/,
+          /@blueprintjs\/core\/lib\/css\/blueprint\.css/,
+        ],
+      },
+      {
+        test: /\.(png|svg|gif|jpe?g|mp3|ttf|eot|woff|woff2|webm|mp4)$/,
+        use: require.resolve('file-loader'),
+      },
     ],
   },
   plugins: [
     new HtmlPlugin({
-      title: 'workspace-a app',
+      title: 'ReactRedux Application',
       template: path.resolve(__dirname, 'src/index.html'),
+    }),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      openAnalyzer: false,
+      reportFilename: path.resolve(__dirname, 'dist/bundle-report.html'),
     }),
   ],
 };
