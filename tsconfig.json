@@ -15,5 +15,6 @@
     "removeComments": true,
     "moduleResolution": "Node",
     "lib": ["DOM", "ESNext"]
-  }
+  },
+  "files": ["./global.d.ts"]
 }

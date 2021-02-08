@@ -7,7 +7,7 @@ export function App(): ReactElement {
       <h1>Example app</h1>
       <SmartComponent />
       <br />
-      <ComponentUsesBP />
+      <ComponentUsesBP onClick={console.log} />
     </div>
   );
 }

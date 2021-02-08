@@ -17,7 +17,15 @@ module.exports = {
     rules: [
       {
         test: /\.ts(x?)$/,
-        use: require.resolve('ts-loader'),
+        use: [
+          {
+            loader: require.resolve('ts-loader'),
+          },
+          {
+            loader: require.resolve('astroturf/loader'),
+          },
+        ],
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
