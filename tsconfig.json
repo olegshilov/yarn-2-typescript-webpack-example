@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "CommonJS",
     "strict": true,
     "alwaysStrict": true,
     "sourceMap": true,
@@ -13,7 +13,7 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "removeComments": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "lib": ["DOM", "ESNext"]
   }
 }

@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 import { render } from '@testing-library/react';
 import { Root } from './Root';
+import { ReduxStoreContainer } from './ReduxStoreContainer';
+
+function createAppTestBed() {
+  const wrapper = ({ children }: { children?: ReactNode }): ReactElement => {
+    return <ReduxStoreContainer>{children}</ReduxStoreContainer>;
+  };
+
+  return { wrapper };
+}
 
 describe('<Root />', () => {
   it('should exist', () => {
@@ -8,10 +17,12 @@ describe('<Root />', () => {
   });
 
   it('should render correctly', () => {
-    const { container, getByText } = render(<Root />);
+    const { wrapper } = createAppTestBed();
+    const { container, getByText } = render(<Root />, { wrapper });
 
     expect(container.hasChildNodes()).toBeTruthy();
-    expect(getByText('Root')).toBeTruthy();
-    expect(getByText('ExampleComponent')).toBeTruthy();
+    expect(getByText('Example app')).toBeTruthy();
+    expect(getByText('increment')).toBeTruthy();
+    expect(getByText('decrement')).toBeTruthy();
   });
 });
