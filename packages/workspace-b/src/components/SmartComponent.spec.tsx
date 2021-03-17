@@ -3,6 +3,7 @@ import { render } from '@testing-library/react';
 import { SmartComponent } from './SmartComponent';
 import { ReduxStoreContainer } from '../../../workspace-a/src/components/ReduxStoreContainer';
 import { ExampleActionsContainer } from '../redux/ExampleActionsContainer';
+
 function createAppTestBed() {
   const wrapper = ({ children }: { children?: ReactNode }): ReactElement => {
     return (

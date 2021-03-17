@@ -20,10 +20,11 @@ module.exports = {
         use: [
           {
             loader: require.resolve('ts-loader'),
+            options: {
+              transpileOnly: true,
+            },
           },
-          {
-            loader: require.resolve('astroturf/loader'),
-          },
+          require.resolve('astroturf/loader'),
         ],
         exclude: /node_modules/,
       },

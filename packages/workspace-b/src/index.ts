@@ -1,5 +1,6 @@
 export * from './components/SmartComponent';
 export * from './components/ComponentUsesBP';
+export * from './components/StyledComponents';
 
 export * from './redux/ExampleActionsContainer';
 export * from './redux/exampleReducer';
