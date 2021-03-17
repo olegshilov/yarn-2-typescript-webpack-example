@@ -15,8 +15,9 @@
   ],
   "scripts": {
     "start": "yarn workspace workspace-a start",
-    "start:storybook": "yarn workspace workspace-a storybook",
+    "start:storybook": "yarn workspace workspace-a start:storybook",
     "build": "yarn workspace workspace-a build",
+    "build:storybook": "yarn workspace workspace-a build:storybook",
     "test": "yarn jest --coverage",
     "lint": "yarn eslint packages/ --ext ts,js,tsx,jsx",
     "format": "yarn prettier --write '**/**/*.{css,json,json5,md,html,yaml,yml,ts,js,tsx,jsx}'"
