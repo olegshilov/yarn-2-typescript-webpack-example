@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import {
   SmartComponent,
-  ComponentUsesBP,
+  BlueprintButton,
   SimpleContainer,
   StyledButton,
 } from 'workspace-b';
@@ -19,9 +19,9 @@ export function App(): ReactElement {
         <p>
           Button exported from blueprint
           <br />
-          <ComponentUsesBP onClick={console.log}>
+          <BlueprintButton onClick={console.log}>
             Blueprint button
-          </ComponentUsesBP>
+          </BlueprintButton>
         </p>
         <p>
           Button which use astroturf for styles

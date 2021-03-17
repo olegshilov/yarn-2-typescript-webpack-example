@@ -1,5 +1,5 @@
 export * from './components/SmartComponent';
-export * from './components/ComponentUsesBP';
+export * from './components/BlueprintButton';
 export * from './components/StyledComponents';
 
 export * from './redux/ExampleActionsContainer';
