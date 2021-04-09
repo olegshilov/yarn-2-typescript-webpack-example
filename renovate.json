@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":enableVulnerabilityAlerts",
+    ":prNotPending",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":separatePatchReleases",
+    ":separateMultipleMajorReleases",
+    ":automergePatch"
+  ],
+  "labels": ["dependencies"],
+  "rangeStrategy": "pin",
+  "ignoreScripts": true,
+  "packageRules": [
+    {
+      "extends": [
+        ":automergeTesters",
+        ":automergeLinters",
+        ":automergeTypes",
+        ":automergeMinor",
+        ":assignAndReview(olegshilov)"
+      ],
+      "groupName": "web deps",
+      "managers": ["npm"],
+      "labels": ["javascript"]
+    }
+  ]
+}
