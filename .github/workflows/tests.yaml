@@ -8,6 +8,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14'
-      - run: yarn install
+      - uses: actions/cache@v2
+        with:
+          path: |
+            .yarn/cache
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - run: yarn envinfo
       - run: yarn test
