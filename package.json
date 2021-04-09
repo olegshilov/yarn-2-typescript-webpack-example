@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/package",
-  "name": "yarn-2-typescript-webpack-example",
+  "name": "modern-frontend-example",
   "description": "Example package which shows how to cook yarn v2 with pnp and workspaces for typescript react application",
   "version": "0.0.0",
   "private": true,
