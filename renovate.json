@@ -7,7 +7,8 @@
     ":prHourlyLimitNone",
     ":separatePatchReleases",
     ":separateMultipleMajorReleases",
-    ":automergePatch"
+    ":automergePatch",
+    ":assignAndReview(olegshilov)"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "pin",
@@ -18,8 +19,7 @@
         ":automergeTesters",
         ":automergeLinters",
         ":automergeTypes",
-        ":automergeMinor",
-        ":assignAndReview(olegshilov)"
+        ":automergeMinor"
       ],
       "groupName": "web deps",
       "managers": ["npm"],
