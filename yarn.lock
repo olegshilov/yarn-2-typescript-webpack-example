@@ -3683,6 +3683,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"envinfo@npm:7.8.1":
+  version: 7.8.1
+  resolution: "envinfo@npm:7.8.1"
+  bin:
+    envinfo: dist/cli.js
+  checksum: de736c98d6311c78523628ff127af138451b162e57af5293c1b984ca821d0aeb9c849537d2fde0434011bed33f6bca5310ca2aab8a51a3f28fc719e89045d648
+  languageName: node
+  linkType: hard
+
 "envinfo@npm:^7.7.3":
   version: 7.7.4
   resolution: "envinfo@npm:7.7.4"
@@ -6884,6 +6893,29 @@ __metadata:
   checksum: 3bce20ea525f9477befe458ab85284b0b66c8dc3812f94155af07c827175948cdd8114852ac6c6d82009b13c1048c37f6d98743eb019651ee25c39acc8aabe7d
   languageName: node
   linkType: hard
+
+"modern-frontend-example@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "modern-frontend-example@workspace:."
+  dependencies:
+    "@types/jest": 26.0.21
+    "@types/react": 17.0.3
+    "@typescript-eslint/eslint-plugin": 4.18.0
+    "@typescript-eslint/parser": 4.18.0
+    envinfo: 7.8.1
+    eslint: 7.22.0
+    eslint-config-prettier: 8.1.0
+    eslint-plugin-prettier: 3.3.1
+    eslint-plugin-react: 7.22.0
+    eslint-plugin-react-hooks: 4.2.0
+    identity-obj-proxy: 3.0.0
+    jest: 26.6.3
+    prettier: 2.2.1
+    react: 17.0.1
+    ts-jest: 26.5.4
+    typescript: 4.2.3
+  languageName: unknown
+  linkType: soft
 
 "ms@npm:2.0.0":
   version: 2.0.0
@@ -11187,28 +11219,6 @@ typescript@4.2.3:
   checksum: 40b974f508d8aed28598087720e086ecd32a5fd3e945e95ea4457da04ee9bdb8bdd17fd91acff36dc5b7f0595a735929c514c40c402416bbb87c03f6fb782373
   languageName: node
   linkType: hard
-
-"yarn-2-typescript-webpack-example@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-2-typescript-webpack-example@workspace:."
-  dependencies:
-    "@types/jest": 26.0.21
-    "@types/react": 17.0.3
-    "@typescript-eslint/eslint-plugin": 4.18.0
-    "@typescript-eslint/parser": 4.18.0
-    eslint: 7.22.0
-    eslint-config-prettier: 8.1.0
-    eslint-plugin-prettier: 3.3.1
-    eslint-plugin-react: 7.22.0
-    eslint-plugin-react-hooks: 4.2.0
-    identity-obj-proxy: 3.0.0
-    jest: 26.6.3
-    prettier: 2.2.1
-    react: 17.0.1
-    ts-jest: 26.5.4
-    typescript: 4.2.3
-  languageName: unknown
-  linkType: soft
 
 "yocto-queue@npm:^0.1.0":
   version: 0.1.0
