@@ -6,6 +6,10 @@
   "private": true,
   "author": "Oleg Shilov <me@olegshilov.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">= 14.0.0",
+    "yarn": ">= 2.2"
+  },
   "workspaces": [
     "packages/*"
   ],
