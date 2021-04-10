@@ -23,7 +23,7 @@
       ],
       "groupName": "web deps",
       "managers": ["npm"],
-      "labels": ["javascript"]
+      "labels": ["dependencies", "javascript"]
     }
   ]
 }
