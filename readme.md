@@ -1,3 +1,11 @@
-# Yarn v2 Workspaces PnP
+# Modern Frontend Example
 
-This example package which shows how to cook yarn v2 with pnp and workspaces for typescript react application
+## TODO: 
+ - [x] renovate
+ - [ ] storybook
+ - [x] workspaces
+ - [x] redux
+ - [x] yarn pnp
+ - [ ] ci releases
+ - [x] ci tests
+ - [ ] ci build 
