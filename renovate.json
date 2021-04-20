@@ -19,7 +19,8 @@
     {
       "labels": ["dependencies", "javascript"],
       "groupName": "web deps",
-      "matchManagers": ["npm"]
+      "matchManagers": ["npm"],
+      "excludePackagePatterns": ["yarn", "node"]
     }
   ]
 }
