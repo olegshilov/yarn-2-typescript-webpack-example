@@ -15,6 +15,7 @@
   "labels": ["dependencies"],
   "rangeStrategy": "pin",
   "ignoreScripts": true,
+  "ignoreDeps": ["yarn", "node"],
   "packageRules": [
     {
       "labels": ["dependencies", "javascript"],
