@@ -5,17 +5,17 @@
   "source": true,
   "dependencies": {
     "@blueprintjs/core": "3.41.0",
-    "astroturf": "1.0.0-beta.20",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-redux": "7.2.2",
+    "astroturf": "1.0.0-beta.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.3",
     "redux": "4.0.5"
   },
   "devDependencies": {
-    "@testing-library/react": "11.2.5",
-    "@types/jest": "26.0.21",
+    "@testing-library/react": "11.2.6",
+    "@types/jest": "26.0.22",
     "@types/react": "17.0.3",
-    "@types/react-dom": "17.0.2",
+    "@types/react-dom": "17.0.3",
     "@types/react-redux": "7.1.16",
     "webpack": "5.26.3"
   }
