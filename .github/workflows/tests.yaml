@@ -14,5 +14,5 @@ jobs:
             .yarn/cache
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - run: npx envinfo
-      - run: yarn install --immutable
+      - run: yarn install
       - run: yarn test

@@ -3,11 +3,13 @@
   "extends": [
     ":enableVulnerabilityAlerts",
     ":prNotPending",
-    ":prConcurrentLimitNone",
-    ":prHourlyLimitNone",
     ":separatePatchReleases",
     ":separateMultipleMajorReleases",
     ":automergePatch",
+    ":automergeTesters",
+    ":automergeLinters",
+    ":automergeTypes",
+    ":automergeMinor",
     ":assignAndReview(olegshilov)"
   ],
   "labels": ["dependencies"],
@@ -15,15 +17,9 @@
   "ignoreScripts": true,
   "packageRules": [
     {
-      "extends": [
-        ":automergeTesters",
-        ":automergeLinters",
-        ":automergeTypes",
-        ":automergeMinor"
-      ],
+      "labels": ["dependencies", "javascript"],
       "groupName": "web deps",
-      "managers": ["npm"],
-      "labels": ["javascript"]
+      "matchManagers": ["npm"]
     }
   ]
 }
