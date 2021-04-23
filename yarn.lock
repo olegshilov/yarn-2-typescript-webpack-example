@@ -8879,7 +8879,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.2.10, postcss@npm:^8.2.10":
+"postcss@npm:8.2.12":
+  version: 8.2.12
+  resolution: "postcss@npm:8.2.12"
+  dependencies:
+    colorette: ^1.2.2
+    nanoid: ^3.1.22
+    source-map: ^0.6.1
+  checksum: f16956a6cc20ae78390338362e0640fa25a88895ddc55bd5850536a3140897a538fe91b5d6dc9c84147a20ff100f6389b7445deb539159bea4df7e584f5a63ac
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.2.10":
   version: 8.2.10
   resolution: "postcss@npm:8.2.10"
   dependencies:
@@ -11521,7 +11532,7 @@ typescript@4.2.4:
     fork-ts-checker-webpack-plugin: 6.2.4
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
-    postcss: 8.2.10
+    postcss: 8.2.12
     postcss-loader: 5.2.0
     postcss-preset-env: 6.7.0
     react: 17.0.2
