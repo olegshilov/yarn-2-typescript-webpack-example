@@ -9190,9 +9190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.3":
-  version: 7.2.3
-  resolution: "react-redux@npm:7.2.3"
+"react-redux@npm:7.2.4":
+  version: 7.2.4
+  resolution: "react-redux@npm:7.2.4"
   dependencies:
     "@babel/runtime": ^7.12.1
     "@types/react-redux": ^7.1.16
@@ -9202,13 +9202,12 @@ __metadata:
     react-is: ^16.13.1
   peerDependencies:
     react: ^16.8.3 || ^17
-    redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
   peerDependenciesMeta:
     react-dom:
       optional: true
     react-native:
       optional: true
-  checksum: f789c2d9cb19d33bd5764ea381537d94faf3b3872151b0eb5f6f3c07c3d8746b446664d72026fbafcfef3af7afcab907c9c0486b2c4d283d1ffd06f71dd39be7
+  checksum: 24c4dd26dc55c498d0dcec2e2ef1678aa8cb3f2e1c31704363d072b045460c1f60f5b89b508d3984ae680779cba00ee65f1344a4c4c02768a6bec132e33ee815
   languageName: node
   linkType: hard
 
@@ -11537,7 +11536,7 @@ typescript@4.2.4:
     postcss-preset-env: 6.7.0
     react: 17.0.2
     react-dom: 17.0.2
-    react-redux: 7.2.3
+    react-redux: 7.2.4
     redux: 4.0.5
     redux-logger: 3.0.6
     style-loader: 2.0.0
@@ -11564,7 +11563,7 @@ typescript@4.2.4:
     astroturf: 1.0.0-beta.21
     react: 17.0.2
     react-dom: 17.0.2
-    react-redux: 7.2.3
+    react-redux: 7.2.4
     redux: 4.0.5
     webpack: 5.35.1
   languageName: unknown
