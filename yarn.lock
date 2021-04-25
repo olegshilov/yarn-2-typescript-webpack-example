@@ -4793,9 +4793,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.2.4":
-  version: 6.2.4
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.4"
+"fork-ts-checker-webpack-plugin@npm:6.2.5":
+  version: 6.2.5
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.5"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -4809,7 +4809,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: 3aa3e56f71c95ceeaf4575cb17f65ebc1181b13cd8c82f387a7adb9cf02fa68c17856a9d021881aadd6e9b8356507e923e68fdad6c9cb4d34b184c48f79c47f2
+  checksum: d79d47e111288efe1addd12a295ed74772cbf5cda714c5201b90d6473aa4e03b7992db3881c99ec238c9ed0167f37adc4120a7b8273090a0e910f52bd923f5c1
   languageName: node
   linkType: hard
 
@@ -11546,7 +11546,7 @@ typescript@4.2.4:
     css-loader: 5.2.4
     cssnano: 5.0.1
     file-loader: 6.2.0
-    fork-ts-checker-webpack-plugin: 6.2.4
+    fork-ts-checker-webpack-plugin: 6.2.5
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
     postcss: 8.2.12
