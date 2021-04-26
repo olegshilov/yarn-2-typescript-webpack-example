@@ -21,8 +21,8 @@
     "format": "yarn prettier --write '**/**/*.{css,json,json5,md,html,yaml,yml,ts,js,tsx,jsx}'"
   },
   "devDependencies": {
-    "@types/jest": "26.0.22",
-    "@types/react": "17.0.3",
+    "@types/jest": "26.0.23",
+    "@types/react": "17.0.4",
     "@typescript-eslint/eslint-plugin": "4.22.0",
     "@typescript-eslint/parser": "4.22.0",
     "@yarnpkg/pnpify": "2.4.0",
