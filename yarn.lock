@@ -1168,13 +1168,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.22":
-  version: 26.0.22
-  resolution: "@types/jest@npm:26.0.22"
+"@types/jest@npm:26.0.23":
+  version: 26.0.23
+  resolution: "@types/jest@npm:26.0.23"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 4c98ed058522f6cc74bcb47b8b7b104b77b2d4e42e087171f3d2d3ae5338c21f43ec26f2a186bc229c1bd72c3f776ad07faba837f0ec27f22cf94e154516c0b3
+  checksum: a015676b78bdc51be6f6315acef10d9106ea8064e3e49143bca3c75b834b61285b45c5f5ccfd049a80107f1e2869a9183cdb5be85816c073ea8dd05852fafdc6
   languageName: node
   linkType: hard
 
@@ -1277,14 +1277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.3":
-  version: 17.0.3
-  resolution: "@types/react@npm:17.0.3"
+"@types/react@npm:17.0.4":
+  version: 17.0.4
+  resolution: "@types/react@npm:17.0.4"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 5bcaabadc90a23ad9008540eae98a5819b638c4cf1b968adc67be47d6a8dc8cb100061d877dae97618fb275e405dc484b37154080c7ac0ea7df5efcdd8f98c24
+  checksum: d7a8121faa889d52148df392751b771be16a45369872e9ad2b5db3d5bb8f76e684db27c2447b440441e3da1f353d434fa20fdcb45b3a56a296aab0757862da77
   languageName: node
   linkType: hard
 
@@ -7285,8 +7285,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "modern-frontend-example@workspace:."
   dependencies:
-    "@types/jest": 26.0.22
-    "@types/react": 17.0.3
+    "@types/jest": 26.0.23
+    "@types/react": 17.0.4
     "@typescript-eslint/eslint-plugin": 4.22.0
     "@typescript-eslint/parser": 4.22.0
     "@yarnpkg/pnpify": 2.4.0
@@ -8888,14 +8888,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.2.12":
-  version: 8.2.12
-  resolution: "postcss@npm:8.2.12"
+"postcss@npm:8.2.13":
+  version: 8.2.13
+  resolution: "postcss@npm:8.2.13"
   dependencies:
     colorette: ^1.2.2
     nanoid: ^3.1.22
     source-map: ^0.6.1
-  checksum: f16956a6cc20ae78390338362e0640fa25a88895ddc55bd5850536a3140897a538fe91b5d6dc9c84147a20ff100f6389b7445deb539159bea4df7e584f5a63ac
+  checksum: df64697cbd6d8e501eac2eaed501dc9a9c848538b4b51c53bfe7ed62a91736e97135d1fe22384b69af11bb2387a6cb483f5eecd14b19ca192ab5497ed5522124
   languageName: node
   linkType: hard
 
@@ -11537,8 +11537,8 @@ typescript@4.2.4:
     "@blueprintjs/core": 3.44.0
     "@testing-library/react": 11.2.6
     "@types/cssnano": 4.0.0
-    "@types/jest": 26.0.22
-    "@types/react": 17.0.3
+    "@types/jest": 26.0.23
+    "@types/react": 17.0.4
     "@types/react-dom": 17.0.3
     "@types/react-redux": 7.1.16
     "@types/redux-logger": 3.0.8
@@ -11549,7 +11549,7 @@ typescript@4.2.4:
     fork-ts-checker-webpack-plugin: 6.2.5
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
-    postcss: 8.2.12
+    postcss: 8.2.13
     postcss-loader: 5.2.0
     postcss-preset-env: 6.7.0
     react: 17.0.2
@@ -11574,8 +11574,8 @@ typescript@4.2.4:
   dependencies:
     "@blueprintjs/core": 3.44.0
     "@testing-library/react": 11.2.6
-    "@types/jest": 26.0.22
-    "@types/react": 17.0.3
+    "@types/jest": 26.0.23
+    "@types/react": 17.0.4
     "@types/react-dom": 17.0.3
     "@types/react-redux": 7.1.16
     astroturf: 1.0.0-beta.21
