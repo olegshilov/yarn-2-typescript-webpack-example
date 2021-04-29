@@ -551,9 +551,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:3.44.0":
-  version: 3.44.0
-  resolution: "@blueprintjs/core@npm:3.44.0"
+"@blueprintjs/core@npm:3.44.1":
+  version: 3.44.1
+  resolution: "@blueprintjs/core@npm:3.44.1"
   dependencies:
     "@blueprintjs/icons": ^3.26.0
     "@types/dom4": ^2.0.1
@@ -572,7 +572,7 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 48ae8479425f758246b23f8f91f6289983183e8790583bb194149b1b043e9ac77ce1310caa7fd203f0f1544d68a25ee4de146c2d3ce30c0d1372d62d0e1ddde5
+  checksum: 317db6773cfcf2aa90c8f00c070c7bd48720cfdc0ead98ddafaaaab30d24cc22766ff84b1cd61e2fcca47bf288abcead3eaef4330503eb23becb5a95537ec2f3
   languageName: node
   linkType: hard
 
@@ -11543,7 +11543,7 @@ typescript@4.2.4:
   version: 0.0.0-use.local
   resolution: "workspace-a@workspace:packages/workspace-a"
   dependencies:
-    "@blueprintjs/core": 3.44.0
+    "@blueprintjs/core": 3.44.1
     "@testing-library/react": 11.2.6
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
@@ -11581,7 +11581,7 @@ typescript@4.2.4:
   version: 0.0.0-use.local
   resolution: "workspace-b@workspace:packages/workspace-b"
   dependencies:
-    "@blueprintjs/core": 3.44.0
+    "@blueprintjs/core": 3.44.1
     "@testing-library/react": 11.2.6
     "@types/jest": 26.0.23
     "@types/react": 17.0.4
