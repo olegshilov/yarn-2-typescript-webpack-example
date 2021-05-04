@@ -4,7 +4,7 @@
   "private": true,
   "source": true,
   "dependencies": {
-    "@blueprintjs/core": "3.44.1",
+    "@blueprintjs/core": "3.44.2",
     "astroturf": "1.0.0-beta.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@testing-library/react": "11.2.6",
     "@types/jest": "26.0.23",
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "@types/react-dom": "17.0.3",
     "@types/react-redux": "7.1.16",
     "webpack": "5.36.2"
