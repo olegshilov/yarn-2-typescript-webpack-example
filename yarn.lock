@@ -1246,12 +1246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.3":
-  version: 17.0.3
-  resolution: "@types/react-dom@npm:17.0.3"
+"@types/react-dom@npm:17.0.4":
+  version: 17.0.4
+  resolution: "@types/react-dom@npm:17.0.4"
   dependencies:
     "@types/react": "*"
-  checksum: 9314c91a985f153591e1e74aef3d63d8b22e098069773f32745bf0733740a49802731761a46da8788a7d3dd2c21346036f12c2c24627630e5a6210b120a650e6
+  checksum: 2c69fc56cbb6231d0725fbcec09386fccd797863b3b67ebe046be0f777f25c0d4a147f3601a3cf62ef45aea1f0af2df74d063c1ccdac18211ec43f5029b233d9
   languageName: node
   linkType: hard
 
@@ -7380,6 +7380,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.1.23":
+  version: 3.1.23
+  resolution: "nanoid@npm:3.1.23"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: e6dea1da5a593ffdc8cf2676d1d02f0626f07a54a5947a7a1f5ff1fd07901b2f53044c285e98b87eb367f016fde285fd8785d54a2dceeab9c3721f4e618f8326
+  languageName: node
+  linkType: hard
+
 "nanomatch@npm:^1.2.9":
   version: 1.2.13
   resolution: "nanomatch@npm:1.2.13"
@@ -8898,14 +8907,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.2.14":
-  version: 8.2.14
-  resolution: "postcss@npm:8.2.14"
+"postcss@npm:8.2.15":
+  version: 8.2.15
+  resolution: "postcss@npm:8.2.15"
   dependencies:
     colorette: ^1.2.2
-    nanoid: ^3.1.22
+    nanoid: ^3.1.23
     source-map: ^0.6.1
-  checksum: 46bcc7c05f2b6b0e22e36af03e0244366871bd5cd9e3ca35e0ba2a87fb9080063322ee1dcef307d6e116fdac7c85941aaebd3755a3c88b4533bb8722b7bba4d2
+  checksum: 2d26bc29dedd7656d1f53fa002374a014a8c2c7b9f1538d0fafadb9eae2494f5b037c87de4390d620f622b31d7f15c8c8d88de2bd682e206104fb44e781737df
   languageName: node
   linkType: hard
 
@@ -11548,7 +11557,7 @@ typescript@4.2.4:
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
-    "@types/react-dom": 17.0.3
+    "@types/react-dom": 17.0.4
     "@types/react-redux": 7.1.16
     "@types/redux-logger": 3.0.8
     astroturf: 1.0.0-beta.21
@@ -11558,7 +11567,7 @@ typescript@4.2.4:
     fork-ts-checker-webpack-plugin: 6.2.6
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
-    postcss: 8.2.14
+    postcss: 8.2.15
     postcss-loader: 5.2.0
     postcss-preset-env: 6.7.0
     react: 17.0.2
@@ -11585,7 +11594,7 @@ typescript@4.2.4:
     "@testing-library/react": 11.2.6
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
-    "@types/react-dom": 17.0.3
+    "@types/react-dom": 17.0.4
     "@types/react-redux": 7.1.16
     astroturf: 1.0.0-beta.21
     react: 17.0.2
