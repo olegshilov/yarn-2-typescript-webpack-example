@@ -1246,12 +1246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.4":
-  version: 17.0.4
-  resolution: "@types/react-dom@npm:17.0.4"
+"@types/react-dom@npm:17.0.5":
+  version: 17.0.5
+  resolution: "@types/react-dom@npm:17.0.5"
   dependencies:
     "@types/react": "*"
-  checksum: 2c69fc56cbb6231d0725fbcec09386fccd797863b3b67ebe046be0f777f25c0d4a147f3601a3cf62ef45aea1f0af2df74d063c1ccdac18211ec43f5029b233d9
+  checksum: b3e23acb7be9405050abb4bcd443d14b16b2f3ded2d1853528199e4307b17b25186f905ddd236c27b6ef0297e6779b7fedd11fd24ee9170771be45a7e8e70f4b
   languageName: node
   linkType: hard
 
@@ -11557,7 +11557,7 @@ typescript@4.2.4:
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
-    "@types/react-dom": 17.0.4
+    "@types/react-dom": 17.0.5
     "@types/react-redux": 7.1.16
     "@types/redux-logger": 3.0.8
     astroturf: 1.0.0-beta.21
@@ -11594,7 +11594,7 @@ typescript@4.2.4:
     "@testing-library/react": 11.2.6
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
-    "@types/react-dom": 17.0.4
+    "@types/react-dom": 17.0.5
     "@types/react-redux": 7.1.16
     astroturf: 1.0.0-beta.21
     react: 17.0.2
