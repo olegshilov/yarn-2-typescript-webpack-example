@@ -941,16 +941,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:11.2.6":
-  version: 11.2.6
-  resolution: "@testing-library/react@npm:11.2.6"
+"@testing-library/react@npm:11.2.7":
+  version: 11.2.7
+  resolution: "@testing-library/react@npm:11.2.7"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^7.28.1
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 3ad25d7b88650b83d54990665fabac4f75ff8229773ae877c18ec7a431c17773832d4c3279cecc229815660ffc8be2c86f39de9930777b4dbc1519fb7bca63a5
+  checksum: 389c9f3e83f59677f5283783788d18f8cd499342a0e5c1f67821c292860afe5f282ff8b5ced795b9c2f7d78132005d8b6b33e1b3e3a9004e240e3569f8e168ef
   languageName: node
   linkType: hard
 
@@ -4802,9 +4802,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.2.8":
-  version: 6.2.8
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.8"
+"fork-ts-checker-webpack-plugin@npm:6.2.9":
+  version: 6.2.9
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.9"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -4819,7 +4819,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: b3863108252ad7458f694c3af6d6593a3b3356da43d2c08c8b0e6018c617733b86ef9444dd3ec26432ef37a160c132c880c2f2bea2e652ed69b7d177276eff06
+  checksum: 2332cf09d142055f7070313a3731d17327f6879be328e6ffc49989464e0e5d82e1fbdd17b6906d431093cf9c416e2094731a0276621add37c2df65382c716041
   languageName: node
   linkType: hard
 
@@ -11553,7 +11553,7 @@ typescript@4.2.4:
   resolution: "workspace-a@workspace:packages/workspace-a"
   dependencies:
     "@blueprintjs/core": 3.44.2
-    "@testing-library/react": 11.2.6
+    "@testing-library/react": 11.2.7
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
@@ -11564,7 +11564,7 @@ typescript@4.2.4:
     css-loader: 5.2.4
     cssnano: 5.0.2
     file-loader: 6.2.0
-    fork-ts-checker-webpack-plugin: 6.2.8
+    fork-ts-checker-webpack-plugin: 6.2.9
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
     postcss: 8.2.15
@@ -11591,7 +11591,7 @@ typescript@4.2.4:
   resolution: "workspace-b@workspace:packages/workspace-b"
   dependencies:
     "@blueprintjs/core": 3.44.2
-    "@testing-library/react": 11.2.6
+    "@testing-library/react": 11.2.7
     "@types/jest": 26.0.23
     "@types/react": 17.0.5
     "@types/react-dom": 17.0.5
