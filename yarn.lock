@@ -1277,14 +1277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.5":
-  version: 17.0.5
-  resolution: "@types/react@npm:17.0.5"
+"@types/react@npm:17.0.6":
+  version: 17.0.6
+  resolution: "@types/react@npm:17.0.6"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: f9793e8113f14122d6ed20643b4fe27d30e10d7c80571a1d238c13f8171864f2a7b337194bf41310724498586ed4560fffd081a2d21e488afbb1aca33534189b
+  checksum: dcd8e559f758de7c856bd24136d9005e2b6fbae3d6d81704ba33c6a8ba787874f738b7aae8cfffd89ee35f05658800c43d7fdb9493b79c06a3bcdc1e37ea4635
   languageName: node
   linkType: hard
 
@@ -4802,9 +4802,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.2.9":
-  version: 6.2.9
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.9"
+"fork-ts-checker-webpack-plugin@npm:6.2.10":
+  version: 6.2.10
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.10"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -4819,7 +4819,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: 2332cf09d142055f7070313a3731d17327f6879be328e6ffc49989464e0e5d82e1fbdd17b6906d431093cf9c416e2094731a0276621add37c2df65382c716041
+  checksum: 2c067e05dd138cf1136f45d936baad59ca494521054c91547e915cc4b4e10e367634cf8241899cb76d1516f03d7d3b0711aa21cb552ed17863bf93a868184e91
   languageName: node
   linkType: hard
 
@@ -7296,7 +7296,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 26.0.23
-    "@types/react": 17.0.5
+    "@types/react": 17.0.6
     "@typescript-eslint/eslint-plugin": 4.24.0
     "@typescript-eslint/parser": 4.24.0
     "@yarnpkg/pnpify": 2.4.0
@@ -11556,7 +11556,7 @@ typescript@4.2.4:
     "@testing-library/react": 11.2.7
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
-    "@types/react": 17.0.5
+    "@types/react": 17.0.6
     "@types/react-dom": 17.0.5
     "@types/react-redux": 7.1.16
     "@types/redux-logger": 3.0.8
@@ -11564,7 +11564,7 @@ typescript@4.2.4:
     css-loader: 5.2.4
     cssnano: 5.0.2
     file-loader: 6.2.0
-    fork-ts-checker-webpack-plugin: 6.2.9
+    fork-ts-checker-webpack-plugin: 6.2.10
     html-webpack-plugin: 5.3.1
     normalize.css: 8.0.1
     postcss: 8.2.15
@@ -11593,7 +11593,7 @@ typescript@4.2.4:
     "@blueprintjs/core": 3.44.2
     "@testing-library/react": 11.2.7
     "@types/jest": 26.0.23
-    "@types/react": 17.0.5
+    "@types/react": 17.0.6
     "@types/react-dom": 17.0.5
     "@types/react-redux": 7.1.16
     astroturf: 1.0.0-beta.21
