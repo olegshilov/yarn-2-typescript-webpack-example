@@ -1,5 +1,6 @@
 {
   "repositories": ["olegshilov/modern-frontend-example"],
   "trustLevel": "high",
-  "binarySource": "global"
+  "binarySource": "global",
+  "gitAuthor": "Renovate Bot <renovate@whitesourcesoftware.com>"
 }
