@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.0.0
-      - uses: renovatebot/github-action@v25.26.1
+      - uses: renovatebot/github-action@v25.26.2
         env:
           LOG_LEVEL: debug
         with:
