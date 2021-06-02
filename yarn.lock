@@ -1246,12 +1246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.5":
-  version: 17.0.5
-  resolution: "@types/react-dom@npm:17.0.5"
+"@types/react-dom@npm:17.0.6":
+  version: 17.0.6
+  resolution: "@types/react-dom@npm:17.0.6"
   dependencies:
     "@types/react": "*"
-  checksum: b3e23acb7be9405050abb4bcd443d14b16b2f3ded2d1853528199e4307b17b25186f905ddd236c27b6ef0297e6779b7fedd11fd24ee9170771be45a7e8e70f4b
+  checksum: baf0e2ea405768ccfe30399c1d2d5bc35d48023c6d67394b0c9a8179e51ff3d5e0363e7166114195ea275f97611aae9d8d0163a2813c7a3f1e95ef99f8070390
   languageName: node
   linkType: hard
 
@@ -1277,14 +1277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.8":
-  version: 17.0.8
-  resolution: "@types/react@npm:17.0.8"
+"@types/react@npm:17.0.9":
+  version: 17.0.9
+  resolution: "@types/react@npm:17.0.9"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b59a3abafd240b2880f9e6a11b2b7f75165888260c56e95a77ed10a7dd55570b307fb2356eda7fde2a8e1255d2def11797e4ae9800ae114a1f578546acabda67
+  checksum: 12f1962a317cad805bd6fcd1da3ac1a58a782db28e522bdded163f1bdfc8388f8a110d200a6925cccbf3d442e1325199ce5da710f11ee73f0f140c6734fea127
   languageName: node
   linkType: hard
 
@@ -7339,7 +7339,7 @@ __metadata:
   resolution: "modern-frontend-example@workspace:."
   dependencies:
     "@types/jest": 26.0.23
-    "@types/react": 17.0.8
+    "@types/react": 17.0.9
     "@typescript-eslint/eslint-plugin": 4.25.0
     "@typescript-eslint/parser": 4.25.0
     "@yarnpkg/pnpify": 2.4.0
@@ -11610,8 +11610,8 @@ typescript@4.2.4:
     "@testing-library/react": 11.2.7
     "@types/cssnano": 4.0.0
     "@types/jest": 26.0.23
-    "@types/react": 17.0.8
-    "@types/react-dom": 17.0.5
+    "@types/react": 17.0.9
+    "@types/react-dom": 17.0.6
     "@types/react-redux": 7.1.16
     "@types/redux-logger": 3.0.8
     astroturf: 1.0.0-beta.21
@@ -11647,8 +11647,8 @@ typescript@4.2.4:
     "@blueprintjs/core": 3.44.3
     "@testing-library/react": 11.2.7
     "@types/jest": 26.0.23
-    "@types/react": 17.0.8
-    "@types/react-dom": 17.0.5
+    "@types/react": 17.0.9
+    "@types/react-dom": 17.0.6
     "@types/react-redux": 7.1.16
     astroturf: 1.0.0-beta.21
     react: 17.0.2
